@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Indie+Flower&family=Kalnia:wght@100..700&family=Orbitron:wght@400..900&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 80vh;
+}
+.nav-logo{
+    padding-top: 0px;
+}
+.home-left{
+    width: 50vw;
+    text-align: justify;
+    padding-left: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.home-right{
+    width: 50vw;
+    padding: 100px;
+}
+.para{
+    padding-left: 105px;
+    font-family: Caveat;
+    font-size: 25px;
+}
+.heading{
+    font-family: Dancing Script;
+    font-size: 50px;
+}
+
+
+.skills-logos{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.skills{
+    font-family: Orbitron;
+}
+.progress{
+    margin-left: 100px;
+    margin-right: 600px;
+}
+
+.progress-bar{
+    background-color: rgb(140, 218, 122);
+    text-align: right;
+    font-size: 15px;
+}
+
+.certificates{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Orbitron;
+}
+.col{
+    height: 358px;
+    width: 350px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: Caveat;
+    font-size: 20px;
+}
+.resume{
+    margin-left: 50px;
+    font-family: Caveat;
+    font-size: 30px;
+    
+}
+.r-h{
+    font-family: Orbitron;
+}
+.contact-top{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.contact{
+    align-items: center;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(210, 210, 210);
+}
+.navbar_left{
+    padding-left: 20px;
+}
+.navbar_right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a_element{
+    padding: 10px;
+    font-family: Orbitron;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+.a_element:hover{
+    color: red;
+    
+}
+footer {
+	background: var(--primary-color);
+	padding: 15px 0;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+    background-color: rgb(210, 210, 210);
+}
+
+footer .footer span {
+	font-size: 17px;
+	font-weight: 400;
+	color: var(--white-color);
+}
+
+footer .footer span a {
+	font-weight: 500;
+	color: var(--white-color);
+    font-family: Orbitron;
+    
+}
+
+footer .footer span a:hover {
+	text-decoration: underline;
+    
+}
